@@ -1,0 +1,50 @@
+Quiz
+
+From Request: http://forums.bukkit.org/threads/minecraft-quiz.10840/
+
+Allows you to create your own questions and set points for each question. 
+These questions can be asked and answered in-game and points will be distributed to the players.
+
+Commands:
+/question (q) 		shows the current question (if any)
+/answer (a) [answer] 	Allows player to answer a question.
+/quizscore 		Gives you the top 5 players. (configurable)
+
+
+Features:
+create own questions with points
+in-game highscore
+runs on its own, and can be set to not run if there are not enough players on the server
+
+
+ToDo:
+prizes
+reload questions & config
+customizable messages
+
+
+
+Changelog:
+Version 2.0 - 4/5/11 - jascotty2
+major code cleanup & restucture
+runs automatically, without OP input
+can be set to not ask any question if there are not enough players on the server
+settings & questions moved to plugin folder
+plugin configuration file added
+example quiz file (compiled from submissions) included automatically
+"reduced points for partially correct answers" replaced with word matching
+- incorrect spacing can be ignored
+- punctuation can be ignored
+- common words (and, the, a, an, his (etc)) can be ignored
+- (might re-add partial word matching as another option)
+/question changed to show the current question
+/answertime removed - now set in config
+competitive mode: first correct answer gets the points!
+
+
+1.1
+multiple correct answers
+reduced points for partially correct answers
+
+1.0
+Initial Release
