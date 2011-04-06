@@ -1,0 +1,28 @@
+## Quiz Configuration ##
+
+# if ignores whether the spaces are correct
+whiteSpaceInsensitive: true
+
+# if ignores non-alphanumeric char (like !.';,. (etc))
+specialCharInsensitive: true
+
+#ignore if there's one of "and, or, the, its, their, his, her" in the answer
+andtheIgnore: true
+
+
+# how long between questions should it ask another question (seconds)
+questionDelay: 60
+
+# how long to wait for an answer (seconds)
+questionWait: 60
+
+
+# if this is true, only one player can win a question
+competitiveMode: false
+
+
+# minimum players online to ask a question
+minPlayersOnline: 3
+
+# how many to show for the top players
+maxTopPlayers: 5

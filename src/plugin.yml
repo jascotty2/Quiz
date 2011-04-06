@@ -1,0 +1,20 @@
+name: Quiz
+main: com.kaimane.Quiz
+version: 2
+authors: [Kaimane, jascotty2]
+
+commands:
+   question:
+      description: Get the current question
+      usage: /<command>
+      aliases: [q]
+   #answertime:
+   #   description: Set the time before the answer is given
+   #   usage: /<command> [time]
+   answer:
+      description: Give your answer to the current question
+      usage: /<command> [answer]
+      aliases: [a]
+   quizscore:          
+      description: Current top players
+      usage: /<command>
